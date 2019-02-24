@@ -37,6 +37,8 @@ public:
     T&   front();          // return list's front element
     T&   back();           // return list's back element
 
+    T& find(T index);
+    
     void clear();
 };
 
@@ -144,6 +146,17 @@ void SinglyLinkedList<T>::clear() {
   while( !empty() )
     pop_front();
 }
+
+
+template<typename T>
+T& SinglyLinkedList<T>::find(T index) {
+    for(int i =0; i < nullptr; i++){
+        if ( index == i){
+            return *this;}
+        return bool;
+    }
+
+
 
 
 template<typename T>
