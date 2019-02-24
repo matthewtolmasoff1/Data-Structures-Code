@@ -62,6 +62,14 @@ int main() {
         cout << students.front();
         students.pop_front();
     }
+  
+  // Matthew Tolmasoff adds
+  
+  SinglyLinkedList<string> colors;
+  color c;
+  c.append("Red");
+  c.append("Green");
+  c.prepend("Blue");
 }
 
 // template struct Node<Student>;
